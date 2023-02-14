@@ -3,7 +3,7 @@ on: [push]
  
 jobs:
   build-and-deploy:
-    runs-on: windows-latest
+    runs-on: [windows-latest]
     steps:
       - name: Azure_Login
         uses: azure/login@v1
